@@ -1,0 +1,45 @@
+Program Flow:
+1. Patient record list
+2. Select patient record
+3. Choice--
+	**rec = record choice
+	1. Current Medication
+		1. Display dose
+			- Option {OK, Change} OK--> Back, Change-->2
+		2. Change dose option --> [DoseInput]
+
+	2. New Medication
+		1. Enter medication name --> [MediInput]
+			-Type first letters to get medication name(side)
+		2. Display selected
+			- Option {OK, Change} OK-->3, Change-->1
+		3. Enter dosage --> [DoseInput]
+		4. Final Confirmation
+			- Option {OK, Change} OK--> Back, Change-->3
+
+	3. Formulary
+		1. List out medications --> [ListMedi]
+		2. Enter medication name --> [MediInput]
+		3. Display selected
+			- Option {OK, Change} OK-->4, Change-->1
+		4. Enter dosage --> [DoseInput]
+		5. Final Confirmation
+			- Option {OK, Change} OK--> Back, Change-->4
+4. Final Full check
+	- Option {OK, Change} OK-->5, Change-->1
+5. Enter data to MediList_Dose.txt
+
+Mehtods:
+1. [DoseInput]
+	- [CheckDose]
+2. [MediInput]
+3. [ListMedi]
+
+Files:
+1. MediList_Dose.txt
+
+Tasks:
+1. UI 
+2. Choice 1
+3. Choice 2
+4. Choice 3
